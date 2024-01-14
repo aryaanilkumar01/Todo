@@ -10,7 +10,7 @@ function App() {
   return (
     <>
 <div className='text-center container mt-5 p-4 border'>
-  <h1>ToDoList</h1>
+  <h1>My TODO List</h1>
    <Addform/>
 
    <Totalitems/>
