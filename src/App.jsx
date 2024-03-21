@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import './App.css'
 import Addform from './Components/Addform';
-import Form from './Components/Form';
+
 import Totalitems from './Components/Totalitems';
 
 function App() {
@@ -9,9 +9,10 @@ function App() {
 
   return (
     <>
-<div className='text-center container mt-5 p-4 border'>
+<div className='text-center container mt-5 p-3 border' style={{width:'60%'}}>
   <h1>My TODO List</h1>
    <Addform/>
+   
 
    <Totalitems/>
 </div>
